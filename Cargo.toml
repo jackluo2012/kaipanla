@@ -1,0 +1,6 @@
+[workspace]
+members = ["src-tauri"]
+resolver = "2"
+
+[workspace.dependencies]
+# 依赖版本统一管理
