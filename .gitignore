@@ -1,0 +1,56 @@
+# Rust
+target/
+Cargo.lock
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Tauri
+src-tauri/target/
+src-tauri/Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.app
+*.dmg
+*.msi
+*.exe
+*.deb
+
+# Logs
+logs/
+*.log
+
+# Database (本地测试数据库)
+*.db
+*.db-shm
+*.db-wal
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# ClickHouse 数据 (不提交本地测试数据)
+clickhouse_data/
+
+# OS
+Thumbs.db
