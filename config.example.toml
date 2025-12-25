@@ -1,0 +1,16 @@
+# config.example.toml
+
+[database]
+clickhouse_url = "http://localhost:8123"
+sqlite_path = "kaipanla.db"
+
+[api]
+host = "127.0.0.1"
+port = 8000
+
+[data_source]
+tdx_servers = [
+    "124.71.187.122:7709",
+    "122.51.120.217:7709",
+]
+update_interval_secs = 3
